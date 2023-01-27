@@ -73,10 +73,10 @@ class _CodeWidgetState extends State<CodeWidget> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
+                    padding: EdgeInsetsDirectional.fromSTEB(12, 32, 12, 0),
                     child: PinCodeTextField(
                       appContext: context,
-                      length: 4,
+                      length: 6,
                       textStyle: FlutterFlowTheme.of(context)
                           .subtitle2
                           .override(
